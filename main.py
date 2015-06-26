@@ -5,13 +5,12 @@ import random
 import urllib
 import urllib2
 
-# for sending images
-from PIL import Image
-import multipart
-
 # standard app engine imports
 from google.appengine.api import urlfetch
 from google.appengine.ext import ndb
+# for sending images
+from google.appengine.api import images
+import multipart
 import webapp2
 
 TOKEN = 'YOUR_BOT_TOKEN_HERE'
